@@ -7,7 +7,7 @@ function myDisplayer(message){
 
 // promise:
 // this promise will wait for a fullfillment, it could be a reject or resolution
-// the promise object request 2 callback functions, one for each scenario, and those functions will be addressed inside the promised code
+// the promise object request 1 function with 2 callback functions as parameters, one for each scenario, and those functions will be addressed inside the promised code
 let myPromise = new Promise(function(myResolve, myReject){
     let x = 0; //CHANGE HERE TO TEST DIFFERENT RESULTS
 
